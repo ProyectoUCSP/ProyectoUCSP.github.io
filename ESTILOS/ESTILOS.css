@@ -31,8 +31,8 @@ header
     width: 100%;
     height: 630px;
     background: #076585;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(207, 100%, 12%, 0.767), hsla(16, 100%, 75%, 0.562)), url(../IMAGENES/Foto.jpeg);
-    background: linear-gradient(to right, hsla(207, 100%, 12%, 0.767), hsla(16, 100%, 75%, 0.562)), url(../IMAGENES/Foto.jpeg);
+    background: -webkit-linear-gradient(to right, hsla(207, 100%, 12%, 0.767), hsla(16, 100%, 75%, 0.562)), url(../IMAGENES/FOTO.webp);
+    background: linear-gradient(to right, hsla(207, 100%, 12%, 0.767), hsla(16, 100%, 75%, 0.562)), url(../IMAGENES/FOTO.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -105,10 +105,15 @@ header .textos-header
 {
     background: whitesmoke;
 }
+.imagen-about-us2
+{
+    width: 23%;
+    height: 10%;
 
+}
 .imagen-about-us
 {
-    width: 48%;
+    width: 50%;
 }
 
 .sobre-nosotros .contenido-textos
